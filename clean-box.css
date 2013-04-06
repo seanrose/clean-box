@@ -1,0 +1,48 @@
+/* Custom Styles for Box.com by Sean Rose
+================================================== */
+
+/* Y'all are unnecessary */
+.right_col,
+.sub_nav_tabs,
+.list_img,
+.dropdown_button,
+.action .more_item,
+.item_stat,
+.discussion_count,
+.collaboration_count,
+.edit_description,
+.share_indicator_open,
+.share_indicator_company,
+.share_indicator_restricted,
+.more_item,
+.like_button,
+.col1,
+.item_feed_menu,
+#select_all,
+#tasks_tab,
+#top_corner_profile_info,
+#files_tab,
+#contacts_tab,
+#apps_tab,
+#new_updates_count {
+    display: none !important;
+}
+
+.main {
+    border-right: none;
+}
+
+#sort_link {
+    position: absolute;
+    left: 5px;
+}
+
+#gallery_page_nav,
+#gallery_navigation_section {
+    position: absolute;
+    right: 8px;
+}
+
+#gallery_page_nav {
+    bottom: 0px;
+}
