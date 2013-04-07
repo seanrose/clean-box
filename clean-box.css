@@ -5,7 +5,6 @@
 .right_col,
 .sub_nav_tabs,
 .list_img,
-.dropdown_button,
 .action .more_item,
 .item_stat,
 .discussion_count,
@@ -18,6 +17,9 @@
 .like_button,
 .col1,
 .item_feed_menu,
+.lowlight_button,
+#create_item_button,
+#upload_button,
 #header_description_container,
 #select_all,
 #tasks_tab,
@@ -36,7 +38,6 @@
 #item_menu_add_edit_tags,
 #item_menu_add_tags,
 #item_menu_sync,
-#item_menu_preview,
 #item_menu_preview_new_tab,
 #item_menu_lock,
 #item_menu_more_openbox {
@@ -52,6 +53,7 @@
     left: 5px;
 }
 
+.dropdown_button,
 #gallery_page_nav,
 #gallery_navigation_section {
     position: absolute;
@@ -60,4 +62,8 @@
 
 #gallery_page_nav {
     bottom: 0px;
+}
+
+.comment_list, .item_feed {
+    max-width: 100%
 }
