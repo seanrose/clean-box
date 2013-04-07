@@ -1,7 +1,7 @@
 clean-box
 =========
 
-A simpler restyling of the box.com UI
+A simpler restyling of the box.com UI. Note that this is *not* a knock against the designers that put a lot of hard work into the Box UI; this UI is just more tightly catered to *my* usage patterns.
 
 To use with Chrome:
 
