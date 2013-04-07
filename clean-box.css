@@ -4,7 +4,6 @@
 /* Remove items from main view */
 .right_col,
 .sub_nav_tabs,
-.list_img,
 .action .more_item,
 .item_stat,
 .discussion_count,
@@ -18,6 +17,10 @@
 .col1,
 .item_feed_menu,
 .lowlight_button,
+#current_user_get_box_sync,
+#nav_list_view,
+#nav_icon_view,
+#tag_filter,
 #create_item_button,
 #upload_button,
 #header_description_container,
