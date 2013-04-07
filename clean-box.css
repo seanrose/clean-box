@@ -70,3 +70,7 @@
 .comment_list, .item_feed {
     max-width: 100%
 }
+
+#files {
+    width: 722px;
+}
