@@ -1,7 +1,7 @@
 /* Custom Styles for Box.com by Sean Rose
 ================================================== */
 
-/* Y'all are unnecessary */
+/* Remove items from main view */
 .right_col,
 .sub_nav_tabs,
 .list_img,
@@ -18,6 +18,7 @@
 .like_button,
 .col1,
 .item_feed_menu,
+#header_description_container,
 #select_all,
 #tasks_tab,
 #top_corner_profile_info,
@@ -25,6 +26,20 @@
 #contacts_tab,
 #apps_tab,
 #new_updates_count {
+    display: none !important;
+}
+
+/*Remove Submenu Items*/
+#item_menu_open,
+#item_menu_open_new_tab,
+#item_menu_upload_new_to_folder,
+#item_menu_add_edit_tags,
+#item_menu_add_tags,
+#item_menu_sync,
+#item_menu_preview,
+#item_menu_preview_new_tab,
+#item_menu_lock,
+#item_menu_more_openbox {
     display: none !important;
 }
 
