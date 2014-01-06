@@ -10,7 +10,7 @@ To use with Chrome:
 3. For 'Applies to', select **Urls on the the domain** and in the field put **box.com**
 4. Click 'Save' and you're good to go! You're configuration should look something like the below screenshot.
 
-![Screenshot of Stylish](https://www.evernote.com/shard/s146/sh/f32b1966-670e-4b48-920a-01977c3fcb2b/a946c6737cef7e5480def78b2f28338c/deep/0/Edit%20Style%20Clean%20Box.png)
+![Screenshot of Stylish](https://www.evernote.com/shard/s146/sh/65dbe8e8-382d-4e7d-8e41-fb52f6b39dd7/6d8e1e5d0ebb81a4fdedcad848e7953c/deep/0/Edit-Style-clean-box.png)
 
 Your final product should look something like this:
 
