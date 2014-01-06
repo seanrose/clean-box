@@ -3,74 +3,52 @@
 
 /* Remove items from main view */
 .right_col,
-.sub_nav_tabs,
-.action .more_item,
-.item_stat,
-.discussion_count,
-.collaboration_count,
-.edit_description,
-.share_indicator_open,
-.share_indicator_company,
-.share_indicator_restricted,
-.more_item,
-.like_button,
-.col1,
-.item_feed_menu,
-.lowlight_button,
-#current_user_get_box_sync,
-#nav_list_view,
-#nav_icon_view,
-#tag_filter,
-#create_item_button,
-#upload_button,
-#header_description_container,
-#select_all,
-#tasks_tab,
-#top_corner_profile_info,
-#files_tab,
+.sprite_16x16_horizontal_grey_link,
+#tasks_tab, 
+#files_tab, 
 #contacts_tab,
-#apps_tab,
-#new_updates_count {
+#apps_tab {
     display: none !important;
 }
 
-/*Remove Submenu Items*/
-#item_menu_open,
-#item_menu_open_new_tab,
-#item_menu_upload_new_to_folder,
-#item_menu_add_edit_tags,
-#item_menu_add_tags,
-#item_menu_sync,
-#item_menu_preview_new_tab,
-#item_menu_lock,
-#item_menu_more_openbox {
-    display: none !important;
+/* One column to rule them all! */
+.main, 
+.page,
+.subheader {
+    width: 723px;
 }
-
+  
 .main {
     border-right: none;
 }
-
-#sort_link {
-    position: absolute;
-    left: 5px;
+  
+#search {
+    width: 480px  
 }
 
-.dropdown_button,
-#gallery_page_nav,
-#gallery_navigation_section {
-    position: absolute;
-    right: 8px;
+.subheader {
+    width: 723px;
+    margin: auto;
+    background: none;
 }
 
-#gallery_page_nav {
-    bottom: 0px;
+/* Remove background and borders from breadcrumbs */
+                    
+.breadcrumb_item,
+.breadcrumb_item_link,
+.breadcrumb_item_link:before,
+.breadcrumb_item_link:after {
+    border: none !important;
+    background: none !important;
+}
+              
+/* Typography adjustments */
+
+body {
+  font-family: 'Open Sans', arial, helvetica, clean, sans-serif;
+  font-weight: 400;
 }
 
-.comment_list, .item_feed {
-    max-width: 100%
-}
-
-#files {
-    width: 722px;
+#innerdocbody, #innerdocbody span {
+  font-family: 'Avenir Next' !important;
 }
