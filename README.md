@@ -14,4 +14,4 @@ To use with Chrome:
 
 Your final product should look something like this:
 
-![Screenshot of clean box box](https://www.evernote.com/shard/s146/sh/e889d047-9937-42cb-865f-049e1d2f473e/f9722a59a5926a7041049a4a53833ff4/res/88e04054-7c8e-4659-9a36-c0ed5c91f60d/skitch.png)
+![Screenshot of clean box box](https://www.evernote.com/shard/s146/sh/eb7bddf2-1f12-4cc7-8362-b62fbb60c724/8830a23468f2d8e67606082be4c0cce6/deep/0/1-6-14,-12-40-AM.png)
