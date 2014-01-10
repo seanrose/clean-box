@@ -7,7 +7,19 @@
 #tasks_tab, 
 #files_tab, 
 #contacts_tab,
-#apps_tab {
+#apps_tab,
+#item_menu_box_edit,
+#item_menu_preview ,
+#item_menu_preview_new_tab,
+#item_menu_lock,
+#item_menu_add_services,
+#item_menu_more_openbox,
+#item_menu_add_edit_tags,
+#item_menu_open_new_tab,
+#item_menu_open,
+.item_menu_action_default
+
+{
     display: none !important;
 }
 
@@ -15,7 +27,7 @@
 .main, 
 .page,
 .subheader {
-    width: 723px;
+	width: 723px;
 }
   
 .main {
@@ -23,30 +35,35 @@
 }
   
 #search {
-    width: 480px  
+	width: 480px  
+}
+
+.search_unit {
+  position: static !important;
 }
 
 .subheader {
-    width: 723px;
+	width: 723px;
     margin: auto;
     background: none;
 }
-
-/* Remove background and borders from breadcrumbs */
                     
 .breadcrumb_item,
 .breadcrumb_item_link,
 .breadcrumb_item_link:before,
 .breadcrumb_item_link:after {
-    border: none !important;
-    background: none !important;
+	border: none !important;
+  	background: none !important;
 }
               
 /* Typography adjustments */
-
 body {
   font-family: 'Open Sans', arial, helvetica, clean, sans-serif;
   font-weight: 400;
+}
+
+.inline_list {
+	font-weight: 300; 
 }
 
 #innerdocbody, #innerdocbody span {
