@@ -17,6 +17,10 @@
 #item_menu_add_edit_tags,
 #item_menu_open_new_tab,
 #item_menu_open,
+#create_item_button, 
+#folder_options_button,
+#tags_button,
+#upgrade_button,
 .item_menu_action_default
 
 {
@@ -26,8 +30,13 @@
 /* One column to rule them all! */
 .main, 
 .page,
-.subheader {
+.subheader,
+.breadcrumb_wrapper {
 	width: 723px;
+}
+    
+.subheader {
+	border-bottom: none;    
 }
   
 .main {
@@ -57,9 +66,8 @@
 }
               
 /* Typography adjustments */
-body {
-  font-family: 'Open Sans', arial, helvetica, clean, sans-serif;
-  font-weight: 400;
+body, input, button, select, textarea {
+  font-family: 'Proxima Nova', 'Open Sans', arial, helvetica, clean, sans-serif;
 }
 
 .inline_list {
